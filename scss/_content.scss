@@ -1,0 +1,61 @@
+#titlesh1h2 {
+    font-weight: $titleHeavy;
+    font-size: $textMd;
+    color: $secondaryColor;
+    margin: 4rem 2rem;
+}
+
+
+
+h2 {
+    @extend #titlesh1h2;
+    padding: 1.5rem;
+}
+
+h1 {
+    @extend #titlesh1h2;
+    padding: 2rem;
+}
+
+.navStyle {
+    background-color: $mainColor;
+    font-size: $textSm;
+    font-weight: $w-45;
+}
+
+.checkbox {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.btForm {
+    border: solid 1px;
+    border-color: $btnborderColor;
+    background-color: $btncolor;
+    color: $btntextColor;
+
+    &:hover {
+        background-color: $hoverColor;
+        transform: translateY(-0.20em);
+        transition: transform 0.2s;
+        cursor: pointer;
+    }
+}
+
+.nosotras {
+    align-items: center;
+    margin: 1rem;
+    font-size: 1.2rem;
+
+    & p {
+        padding: 1rem;
+    }
+}
+
+.nosotrasCard {
+    background-color: map-get($map: bgCards, $bg3);
+}

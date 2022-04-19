@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&family=Montserrat:wght@300;700&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-weight: 700, bold;
+    font-size: 2rem;
+    color: #c54d08;
+    margin: 4rem 2rem;
+
+}
+
+.navStyle {
+    background-color: #ffbd94;
+    font-size: 1rem;
+    font-weight: 450;
+}
+
+.btForm {
+    border: solid 1px coral;
+    background-color: #cc906d;
+    color: white;
+}
+
+.btForm:hover {
+    background-color: #a84308;
+    transform: translateY(-0.20em);
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+
+/* ----------------------------- start nosotras ----------------------------- */
+.nosotras {
+    align-items: center;
+    margin: 1rem;
+    font-size: 1.2rem
+}
+
+.nosotras p {
+    padding: 1rem;
+}
+
+
+/* ----------------------------- start clientes ----------------------------- */
+
+/* 
+#clientes {
+    width: 100%;
+    height: 250px;
+    margin: 50px;
+}
+
+#clientes a {
+    text-decoration: none;
+}
+
+#clientes img {
+    margin: 0 30px;
+    padding: 10px;
+    align-items: center;
+}
+
+.clientes1 {
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.clientes2 {
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.info_maciel {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 5%;
+}
+
+.info_codigouy {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 5%;
+}
+
+.info_rame {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 5%;
+}
+
+.info_camden {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10%;
+    margin-left: 5%;
+
+}
+
+.info_clientes-texto {
+    font-size: 2rem;
+    margin: 3rem;
+    padding: 3rem;
+} */
+
+/* ------------------------------- start form ------------------------------- */
+.checkbox {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+}
+
+
+/* -------------------------- start footer ------------------------- */
+
+#footer {
+    background-color: #ffbd94;
+    border: solid 1px grey;
+    font-size: 1rem;
+    list-style: none;
+    height: 8rem;
+    margin-top: 5rem;
+    display: flex;
+}
+
+#footer h4 {
+    font-size: 1.3rem;
+}
+
+#footer a {
+    text-decoration: none;
+}
+
+#footer ul {
+    display: inline-block;
+    list-style: none;
+
+}
+
+.footerEncotranos {
+    margin: 10px 50px 10px 100px;
+}
+
+.footerHorario {
+    vertical-align: top;
+}
+
+.footerHorario ul {
+    margin: 10px 50px;
+}
+
+.footerSeguinos {
+    margin: 10px 50px;
+
+}

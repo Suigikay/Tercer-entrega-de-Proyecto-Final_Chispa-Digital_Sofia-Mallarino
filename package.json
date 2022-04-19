@@ -1,0 +1,17 @@
+{
+  "name": "chispa-digital_-sofia-mallarino_-tercer-entrega-proyecto-final",
+  "version": "1.0.0",
+  "description": "Tercer Entrega Proyecto Final",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm     run build-css\""
+  },
+  "author": "Sofia Mallarino",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}
